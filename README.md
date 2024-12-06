@@ -1,5 +1,6 @@
 
-# **PyttoExcel**
+# **InventoryXcel**
+**by José Guilherme Neves**
 
 Um aplicativo desenvolvido em **Python** utilizando a biblioteca **Flet**, que permite criar e gerenciar planilhas de forma simples e eficiente. O projeto inclui funcionalidades como geração de planilhas, armazenamento em diretórios organizados, e envio direto para o usuário.
 
@@ -64,12 +65,9 @@ pyttoexcel/
 - **Flet**: Biblioteca para criação de interfaces gráficas.
 
 
-# **InventoryXcel**
-**by José Guilherme Neves**
+### **Como rodar o código**
 
 Para o primeiro "run" do app, deve-se definir no arquivo `main` o diretório do dispositivo onde o programa está sendo executado, possibilitando rodar tanto em **PC** quanto em **Android**.
-
-### **Como rodar o código**
 
 - Para rodar o app no seu computador, use:
   ```bash
