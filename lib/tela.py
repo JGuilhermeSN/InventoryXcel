@@ -172,7 +172,7 @@ def pagina (page: ft.Page, app):
             text_nome_planilha,
             botao_gerar_tabela,
             ft.Divider(),
-            ft.Text('by José Guilherme Neves')
+            ft.Text('por José Guilherme Neves')
         ],horizontal_alignment=ft.CrossAxisAlignment.CENTER)
     )
 

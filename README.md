@@ -1,9 +1,10 @@
-# A pytttoexcel Flet app
+##InventoryXcel
+#by José Guilherme Neves
 
-An example of a minimal Flet app.
+Para o primeiro "run" do app, deve-se definir no arquivo 'main' o diretorio do dispositivo
+que esta sendo rodado o programa, sendo possivel rodar em pc e android.
 
-To run the app:
+para rodar o codigo, use 'flet run lib/main.py'
+para gerar o codigo QR e rodar no android, use 'flet run --android'
 
-```
-flet run [app_directory]
-```
+para gerar o APK do app, use 'flet build apk'
