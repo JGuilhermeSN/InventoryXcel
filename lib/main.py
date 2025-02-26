@@ -17,7 +17,6 @@ class Main:
         self.computadores.append(novopc.to_dict())
         print(f"Computador adicionado: {novopc.to_dict()}")  # Mensagem de depuração
 
-
     def gera_planilha(self, nome_planilha):
         workbook = Workbook()
         sheet = workbook.active
@@ -43,7 +42,7 @@ class Main:
         except Exception as e:
             print(f"Erro ao salvar a planilha: {e}")
             return None
-
+        
     # Esta funçao é somente para PC -por enquanto-
     def abrir_planilha(self, file_path):
         try:

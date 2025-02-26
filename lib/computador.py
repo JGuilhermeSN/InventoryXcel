@@ -19,7 +19,6 @@ class Novo_computador:
         self.tipo_mouse = tipo_mouse
         self.tipo_teclado = tipo_teclado
 
-
     def to_dict(self):
         return {
             'Patrimônio': self.patrimonio,
@@ -38,5 +37,5 @@ class Novo_computador:
             'Tipo Mouse': self.tipo_mouse,
             'Marca Teclado': self.marca_teclado,
             'Tipo Teclado': self.tipo_teclado
-    }
+        }
 
